@@ -1,46 +1,51 @@
-# Getting Started with Create React App
+# NLW - LETMEASK
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projeto desenvolvido com **React.JS**
 
-## Available Scripts
+## Aula 01 - Liftoff
 
-In the project directory, you can run:
+- [x] **0:00:00** - Início
+- [x] **0:52:52** - Criando o projeto **`yarn create react-app letmeask --template typescript`**
+- [x] **1:11:00** - Entendendo o **ReactDOM** e como a renderização funciona
+- [x] **1:15:00** - **Component** no react, para entender melhor, tudo é componente dentro do react.
+- [x] **1:17:32** - **Propriedade**, são informações passadas para o componente
+- [x] **1:27:00** - **Estado** Entendendo o conceito no react de **state**, é como uma informação é mantida dentro de um componente, sempre que o valor de uma informação é alterado, o estado do componente é alterado. Esse conceito de **estado** dentro do react é o conceito mais importante que deve ser aprendido. Esse conceito vem do paradigma da programação funcional, conhecido como **imutabilidade**, o valor de um componente é imutável, nunca se altera o valor do componente em si, e sim cria-se um novo componente, setando um novo valor, a partir do valor do componente anterior.
+- [x] **1:37:10** Integrando o projeto ao **Firebase** **`https://console.firebase.google.com/`**
+- Instalando o package do Firebase **`yarn add firebase`**
+- [x] Código da aula: **`#together`**
 
-### `yarn start`
+## Aula 02 - Maximum Speed
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [x] **0:00:00** - Início
+- [x] **0:11:00** - Criando a pasta **_pages_**
+- [x] **0:11:30** - Criando a página da Home e a sua estrutura HTML
+- [x] **0:20:07** - Criando o estilo da Home e instalando o **SASS** **`yarn add sass`**
+- [x] **0:42:50** - Criando a tela de criação de salas
+- [x] **0:46:00** - Criando o recurso de navegação, através de roteamento **`yarn add react-router-dom`** e **`yarn add @types/react-router-dom -D`**
+- [x] **0:51:50** - Criando a autenticação com o Firebase
+- [x] **0:57:00** - Criando e entendendo o conceito de **Context API**, que são formas de compartilhar informações entre dois ou mais componentes dentro da nossa aplicação.
+- [x] **1:18:20** - Recuperar o estado de autenticação utilizando o hook: **useEffect**
+- [x] **1:24:00** - Refaturando o hook: **useEffect**, separando o Context
+- [x] Código da aula: **`#unidade`**
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Aula 03 - In Orbit
 
-### `yarn test`
+- [x] **0:00:00** - Início
+- [x] **0:09:00** - Criando a persistência de dados com o **Realtime Database** do Firebase
+- [x] **0:12:00** - Criando o recurso de salas no aplicativo
+- [x] **0:29:13** - Criando o fluxo de entrar na sala
+- [x] **0:33:00** - Criando as regras de autenticação e autorização do Firebase
+- [x] **0:44:00** - Criando a página da sala
+- [x] **1:01:00** - Criando o recurso de novas perguntas
+- [x] **1:09:00** - Melhorando o fluxo das perguntas
+- [x] **1:14:00** - Criando o estado do component room
+- [x] **1:30:00** - Ouvindo novas perguntas da sala
+- [x] Código da aula: **`#embuscadeevolução`**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Aula 04 - Landing
 
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [x] **0:00:00** - Início
+- [x] **0:08:25** - Criando a estrutura das perguntas em HTML
+- [x] **0:22:00** - Criando a funcionalidade das perguntas e o hook useRoom
+- [x] **0:27:20** - Criando a página AdminRoom, do administrador da sala
+- [x] **0:35:00** - Criando a funcionalidade de likes na sala
