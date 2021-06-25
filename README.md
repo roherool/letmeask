@@ -49,3 +49,14 @@ Projeto desenvolvido com **React.JS**
 - [x] **0:22:00** - Criando a funcionalidade das perguntas e o hook useRoom
 - [x] **0:27:20** - Criando a página AdminRoom, do administrador da sala
 - [x] **0:35:00** - Criando a funcionalidade de likes na sala
+- [x] **1:02:30** - Criando a funcionalidade de remover perguntas
+- [x] Código da aula: **`#legacy`**
+
+## Aula 04 - Surface Exploration
+
+- [x] **0:00:00** - Início
+- [x] **0:00:00** - Criando o HTML e CSS de destaque e resposta
+- [x] **0:00:00** - Criando o destaque na pergunta
+- [x] **0:00:00** - Criando o recurso de marcar como respondida
+- [x] **0:30:00** - Criando a hospedagem do projeto
+- [x] **0:40:00** - Aula parada
